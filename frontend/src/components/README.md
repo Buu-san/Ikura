@@ -1,0 +1,3 @@
+# src/components
+
+Component React dùng lại giữa các trang: header, footer, thẻ sản phẩm, form, bản đồ đại lý…
