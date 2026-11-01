@@ -1,0 +1,31 @@
+/* Coolors Exported Palette - https://coolors.co/ffffff-e39fa6-242f5f-323561-e95a56 */
+
+- CSV
+
+FFFFFF,E39FA6,242F5F,323561,E95A56
+
+- With #
+
+#FFFFFF, #E39FA6, #242F5F, #323561, #E95A56
+
+- Array
+
+["FFFFFF","E39FA6","242F5F","323561","E95A56"]
+
+- Object
+
+{"White":"FFFFFF","Cotton Candy":"E39FA6","Twilight Indigo":"242F5F","Twilight Indigo 2":"323561","Lobster Pink":"E95A56"}
+
+- Extended Array
+
+[{"name":"White","hex":"FFFFFF","rgb":[255,255,255],"cmyk":[0,0,0,0],"hsb":[0,0,100],"hsl":[0,0,100],"lab":[100,0,0]},{"name":"Cotton Candy","hex":"E39FA6","rgb":[227,159,166],"cmyk":[0,30,27,11],"hsb":[354,30,89],"hsl":[354,55,76],"lab":[72,26,7]},{"name":"Twilight Indigo","hex":"242F5F","rgb":[36,47,95],"cmyk":[62,51,0,63],"hsb":[229,62,37],"hsl":[229,45,26],"lab":[21,12,-30]},{"name":"Twilight Indigo","hex":"323561","rgb":[50,53,97],"cmyk":[48,45,0,62],"hsb":[236,48,38],"hsl":[236,32,29],"lab":[24,12,-27]},{"name":"Lobster Pink","hex":"E95A56","rgb":[233,90,86],"cmyk":[0,61,63,9],"hsb":[2,63,91],"hsl":[2,77,63],"lab":[57,55,32]}]
+
+- XML
+
+<palette>
+  <color name="White" hex="FFFFFF" r="255" g="255" b="255" />
+  <color name="Cotton Candy" hex="E39FA6" r="227" g="159" b="166" />
+  <color name="Twilight Indigo" hex="242F5F" r="36" g="47" b="95" />
+  <color name="Twilight Indigo" hex="323561" r="50" g="53" b="97" />
+  <color name="Lobster Pink" hex="E95A56" r="233" g="90" b="86" />
+</palette>
