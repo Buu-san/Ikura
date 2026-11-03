@@ -7,3 +7,5 @@
 3. **test-frontend**: `npm ci`, typecheck, `next build`.
 4. **build**: build image `ikura-api` / `ikura-web`, push GHCR, tag = mã commit.
 5. **deploy**: nhánh `main` → sửa tag trong `deploy/compose.prod.yml`; nhánh `develop` → `deploy/compose.staging.yml`; commit lại (bỏ qua CI). Portainer tự deploy.
+
+`deploy-pages.yml` — bản demo frontend trên GitHub Pages: khi `main` có thay đổi trong `frontend/**`, build static export với `NEXT_PUBLIC_BASE_PATH=/Ikura` rồi ghi đè nhánh `gh-pages`. Chạy tay được ở tab Actions.
