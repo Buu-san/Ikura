@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: 'Ikura Vietnam' }],
   icons: {
-    icon: '/logo/ikura_logo.png',
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}/logo/ikura_logo.png`,
   },
 };
 
