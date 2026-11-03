@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-plus-jakarta), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Ikura Official Palette Tokens */
+  --color-primary-indigo: #242f5f;
+  --color-primary-dark: #1b2347;
+  --color-surface-indigo: #323561;
+  --color-accent-pink: #e95a56;
+  --color-accent-hover: #d64540;
+  --color-accent-cotton: #e39fa6;
+  --color-neutral-white: #ffffff;
+  --color-neutral-bg: #f8fafc;
+  --color-neutral-border: #e2e8f0;
+  --color-text-primary: #1e293b;
+  --color-text-muted: #64748b;
+}
+
+:root {
+  /* Exact Ikura Logo & Brand Identity Palette (Single Source of Truth) */
+  --primary-indigo: #242f5f;
+  --primary-indigo-dark: #1b2347;
+  --surface-indigo: #323561;
+  --accent-pink: #e95a56;
+  --accent-pink-hover: #d64540;
+  --accent-cotton: #e39fa6;
+  --neutral-white: #ffffff;
+  --neutral-gray-bg: #f8fafc;
+  --neutral-gray-border: #e2e8f0;
+  --text-primary: #1e293b;
+  --text-muted: #64748b;
+
+  /* Typography */
+  --font-primary: var(--font-plus-jakarta), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-primary);
+  }
+
+  body {
+    background-color: var(--neutral-gray-bg);
+    color: var(--text-primary);
+    overflow-x: hidden;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--neutral-gray-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-indigo);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-pink);
+}
+

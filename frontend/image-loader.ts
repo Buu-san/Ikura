@@ -1,0 +1,4 @@
+// next/image does not apply basePath to src, so the static export adds it here.
+export default function imageLoader({ src, width }: { src: string; width: number }) {
+  return `${process.env.NEXT_PUBLIC_BASE_PATH ?? ''}${src}?w=${width}`;
+}
