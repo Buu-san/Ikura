@@ -1,0 +1,3 @@
+[submodule "frontend/skills/avoid-ai-design"]
+	path = frontend/skills/avoid-ai-design
+	url = https://github.com/funboy322/avoid-ai-design.git
